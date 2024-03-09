@@ -1,0 +1,543 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.title1 {
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    color: darkorange;
+}
+
+.title2 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: normal;
+    color: white;
+}
+
+.princ {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pag1, .pag2, .pag3, .pag4, .pag5 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.pag1, .pag2 {
+    top: 0;
+}
+
+.pag3, .pag4 {
+    position: sticky;
+    top: 0;
+}
+
+.pag4 {
+    background-image: url('./textura-de-pedra-escura.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.imagens-pequenas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.imagens-pequenas img {
+    margin: 0 5px;
+    max-width: 200px;
+    height: auto;
+}
+
+@media screen and (max-width:1100px){
+    .imagens-pequenas img{
+        width: 180px;
+    }
+}
+@media screen and (max-width:1000px){
+    .imagens-pequenas img{
+        width: 160px;
+    }
+}
+@media screen and (max-width:900px){
+    .imagens-pequenas img{
+        width: 140px;
+    }
+}
+@media screen and (max-width:800px){
+    .imagens-pequenas img{
+        width: 120px;
+    }
+}
+@media screen and (max-width:700px){
+    .ultima{
+        display: none;
+    }
+    .imagens-pequenas img{
+        width: 140px;
+    }
+}
+@media screen and (max-width:610px){
+    .ultima{
+        display: none;
+    }
+    .imagens-pequenas img{
+        width: 130px;
+    }
+}
+@media screen and (max-width:570px){
+    .ultima{
+        display: none;
+    }
+    .imagens-pequenas img{
+        width: 120px;
+    }
+}
+@media screen and (max-width:530px){
+    .ultima{
+        display: none;
+    }
+    .imagens-pequenas img{
+        width: 110px;
+    }
+}
+
+.titulo5 {
+    margin-top: 50px;
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    color: darkorange;
+}
+
+.botão, .botao {
+    height: 55px;
+    margin-top: 25px;
+    width: 400px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botão {
+    color: aqua;
+}
+
+.espaco {
+    height: 50px;
+}
+
+.botão {
+    display: inline;
+}
+
+.botao2 {
+    margin-left: 30px;
+}
+
+.pag1 video {
+    width: 750px;
+    margin-top: 10px;
+}
+
+.pag1 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.pag2 {
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.fototexto {
+    display: flex;
+}
+
+
+.tv1, .tv2, .tv3, .tv4, .tv5 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.imagens-pequenas  {
+    width: 100vw; /* Define a largura da imagem como 50% da largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+.pag3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.pag4 {
+    background-color: aqua;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.banner {
+    width: 250px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.banner h2 {
+    margin-bottom: 10px;
+}
+
+.banner button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: darkgreen;
+}
+
+@media screen and (max-width:835px) {
+    .pag1 video {
+        width: 750px;
+    }
+    .botão, .botao {
+        height: 50px;
+        margin-top: 15px;
+        width: 320px;
+    }
+
+   
+}
+
+@media screen and (max-width:764px) {
+    .pag1 video {
+        width: 650px;
+    }
+    .botão, .botao {
+        height: 50px;
+        margin-top: 15px;
+        width: 320px;
+    }
+    h2 {
+        font-size: 24px; /* Tamanho para telas menores que 768px */
+    }
+
+    h3 {
+        font-size: 18px; /* Tamanho para telas menores que 768px */
+    }
+    
+
+   
+}
+
+@media screen and (max-width:709px) {
+    .pag1 video {
+        width: 650px;
+    }
+    .botão, .botao {
+        height: 50px;
+        margin-top: 15px;
+        width: 300px;
+    }
+    h2 {
+        font-size: 20px; /* Tamanho para telas menores que 768px */
+    }
+
+    h3 {
+        font-size: 14px; /* Tamanho para telas menores que 768px */
+    }
+    
+}
+
+@media screen and (max-width:670px) {
+    .pag1 video {
+        width: 550px;
+    }
+    .botão, .botao {
+        height: 50px;
+        margin-top: 15px;
+        width: 280px;
+    }
+    h2 {
+        font-size: 17px; /* Tamanho para telas menores que 768px */
+    }
+
+    h3 {
+        font-size: 15px; /* Tamanho para telas menores que 768px */
+    }
+
+  
+   
+}
+@media screen and (max-width:620px) {
+    .pag1 video {
+        width: 500px;
+    }
+    .botão, .botao {
+        height: 50px;
+        margin-top: 15px;
+        width: 280px;
+    }
+    h2 {
+        font-size: 17px; /* Tamanho para telas menores que 768px */
+    }
+
+    h3 {
+        font-size: 15px; /* Tamanho para telas menores que 768px */
+    }
+
+  
+   
+}
+
+@media screen and (max-width:500px) {
+    .pag1 video {
+        width: 450px;
+    }
+    .botão, .botao {
+        height: 50px;
+        margin-top: 15px;
+        width: 250px;
+    }
+    h2 {
+        font-size: 14px; /* Tamanho para telas menores que 768px */
+    }
+
+    h3 {
+        font-size: 12px; /* Tamanho para telas menores que 768px */
+    }
+
+    .ultima {
+        display: none !important;
+    }
+
+   
+}
+@media screen and (max-width:450px) {
+    .pag1 video {
+        width: 40px;
+    }
+    .botão, .botao {
+        height: 50px;
+        margin-top: 15px;
+        width: 250px;
+    }
+    h2 {
+        font-size: 14px; /* Tamanho para telas menores que 768px */
+    }
+
+    h3 {
+        font-size: 12px; /* Tamanho para telas menores que 768px */
+    }
+
+    .ultima {
+        display: none !important;
+    }
+
+   
+}
+
+
+@media screen and (max-width:400px) {
+    .pag1 video {
+        width: 350px;
+    }
+    .botão, .botao {
+        height: 50px;
+        margin-top: 15px;
+        width: 200px;
+    }
+   
+
+    h2 {
+        font-size: 5px; /* Tamanho para telas menores que 768px */
+    }
+
+    h3 {
+        font-size: 1px; /* Tamanho para telas menores que 768px */
+    }
+  
+}
+
+
+
+
+.pag2{
+    border: 1px solid black;
+}
+
+.fototexto{
+    border: 1px solid blue;
+}
+
+
+
+
+@media screen and (max-width:1350px){
+    .banner{
+        width: 220px;
+    }
+    
+}
+@media screen and (max-width:1250px){
+    .banner{
+        width: 200px;
+    }
+/* margin: 20px;
+    padding: 20px; */
+    
+}
+@media screen and (max-width:1150px){
+    .banner{
+        width: 200px;
+        margin: 15px;
+        padding: 15px;
+    }
+}   
+@media screen and (max-width:1080px){
+    .banner{
+        width: 190px;
+        margin: 15px;
+        padding: 15px;
+    }
+}  
+@media screen and (max-width:1050px){
+    .banner{
+        width: 170px;
+        margin: 15px;
+        padding: 15px;
+    }
+}  
+@media screen and (max-width:950px){
+    .banner{
+        width: 170px;
+        margin: 10px;
+        padding: 10px;
+    }
+}  
+@media screen and (max-width:870px){
+    .banner{
+        width: 170px;
+        margin: 5px;
+        padding: 5px;
+    }
+} 
+@media screen and (max-width:800px){
+    .banner{
+        width: 180px;
+        margin: 0px;
+        padding: 0px;
+    }
+}  
+@media screen and (max-width:750px){
+    .banner{
+        width: 165px;
+        margin: 0px;
+        padding: 0px;
+    }
+} 
+@media screen and (max-width:690px){
+    .banner{
+        width: 150px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+}     
+@media screen and (max-width:665px){
+    .banner{
+        width: 145px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+}    
+@media screen and (max-width:640px){
+    .banner{
+        width: 135px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+}    
+@media screen and (max-width:580px){
+    .banner{
+        width: 130px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+}
+@media screen and (max-width:555px){
+    .banner{
+        width: 125px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+}    
+@media screen and (max-width:535px){
+    .banner{
+        width: 120px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+} 
+@media screen and (max-width:525px){
+    .banner{
+        width: 100px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+} 
+
+    
+   
